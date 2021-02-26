@@ -18,7 +18,7 @@ namespace Microsoft.BotBuilderSamples.Dialog
     public class QnAMakerBaseDialog : QnAMakerDialog
     {
         // Dialog Options parameters
-        public const string DefaultNoAnswer = "Pregunta no registrada.";
+        public const string DefaultNoAnswer = "Discúlpame, sigo aprendiendo cómo darte una mejor respuesta. 😃";
         public const string DefaultCardTitle = "Did you mean:";
         public const string DefaultCardNoMatchText = "None of the above.";
         public const string DefaultCardNoMatchResponse = "Thanks for the feedback.";

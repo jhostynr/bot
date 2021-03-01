@@ -21,7 +21,7 @@ namespace Microsoft.BotBuilderSamples.Dialog
         public const string DefaultNoAnswer = "Discúlpame, sigo aprendiendo cómo darte una mejor respuesta. 😃";
         public const string DefaultCardTitle = "Acaso te refieres a:";
         public const string DefaultCardNoMatchText = "Ninguna de las anteriores.";
-        public const string DefaultCardNoMatchResponse = "Puedes realizar otra pregunta.";
+        public const string DefaultCardNoMatchResponse = "¿Podrías realizar otra pregunta?";
         private readonly IBotServices _services;
         private readonly IConfiguration _configuration;
 

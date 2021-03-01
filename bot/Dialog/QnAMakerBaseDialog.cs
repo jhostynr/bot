@@ -19,8 +19,8 @@ namespace Microsoft.BotBuilderSamples.Dialog
     {
         // Dialog Options parameters
         public const string DefaultNoAnswer = "Discúlpame, sigo aprendiendo cómo darte una mejor respuesta. 😃";
-        public const string DefaultCardTitle = "Did you mean:";
-        public const string DefaultCardNoMatchText = "None of the above.";
+        public const string DefaultCardTitle = "Acaso te refieres a:";
+        public const string DefaultCardNoMatchText = "Ninguna de las anteriores.";
         public const string DefaultCardNoMatchResponse = "Thanks for the feedback.";
         private readonly IBotServices _services;
         private readonly IConfiguration _configuration;

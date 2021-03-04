@@ -24,7 +24,7 @@ namespace Microsoft.BotBuilderSamples
                 logger.LogError(exception, $"[OnTurnError] unhandled error : {exception.Message}");
 
                 // Send a message to the user
-                await turnContext.SendActivityAsync("Error!.");
+                await turnContext.SendActivityAsync("Error!");
                 await turnContext.SendActivityAsync("Función no disponible.");
 
                 if (conversationState != null)
